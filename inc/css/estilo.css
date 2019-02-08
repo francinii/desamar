@@ -1,0 +1,209 @@
+html {
+    font-size: 62.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 1.4rem;
+    color: #6f889b;
+    margin: 0;
+  }
+
+
+/*******************************************MENU DE NAVEGACION**************************************/
+#navigation-menu {
+    width: 100%;
+    height: 55px;
+    background: #1c2331;
+    border-bottom: 3px solid #039491;
+    z-index: 10;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+}
+.nav-item {
+    padding: 1%;
+}
+.nav-item a {
+    font-size: large;
+    color: white;
+}
+/*******************************************MENU DE NAVEGACION**************************************/
+
+
+
+/***************************************   SECCIONES GENERAL    *******************************************************
+*Esta sección.container crea una seccion con todo el ancho de la pantalla que se ajusta al contenido a lo alto. 
+Si se desea que cada seccion cambie su apariencia en cuando a color, se puede sobreescribir 
+*/
+.section-container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background: beige;
+   /* height: 650px;   */
+}
+/***************************************  FIN DE SECCIONES GENERAL    ********************************************************/
+
+
+
+/***************************************  SECCION TEXTO IMAGEN    ***************************************************/
+/*Esto es un ejemplo de card con imagen y texto a la par */
+.section-content{
+    padding: 10% 5% 10% 5%;
+}
+.section-content img{
+    width: 100%;
+}
+/***************************************  FIN SECCION TEXTO IMAGEN    ***************************************************/
+
+
+
+/***************************************   SECCION PARALLAX    ********************************************************
+/*Necesario para crear el efecto parallax, en caso de hacer varios se debe cambiar el background de acuerdo
+ * a lo que se necesite. Un posible nombre para cada clase puede ser parallax-header, parallax-about, etc*/
+.parallax {    
+    background: url('img/header2.jpg') no-repeat center;  
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;    
+}
+
+.parallax-acerca {    
+    background: url('img/header.jpg') no-repeat center;  
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;    
+}
+
+.parallax-contacto {    
+    background: url('img/header3.jpg') no-repeat center;  
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;    
+}
+/***************************************  FIN SECCION PARALLAX    ****************************************************/
+
+
+
+
+
+
+/***************************************   SECCION HEADER CON IMAGEN    ***********************************************/
+.header-container{ 
+    height: 700px;
+    background: url('img/header.jpg') no-repeat center;  
+    background-size: cover;
+}
+/***************************************  FIN SECCION HEADER CON IMAGEN   **********************************************/
+
+
+
+
+
+/***************************************   SECCION GRID    ********************************************************
+ * Estilo para seccion de GRID, mostrar varias card con estilo.
+ * Otra forma es usando flex-> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ * El siguiente ejemplo es usando grid, genera un grid de cartas */
+    @media (min-width: 520px) {
+        .container-grid {   
+        padding: 1%; 
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 25px;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .container-grid {
+        padding: 1%; 
+        grid-template-columns: 1fr 1fr 1fr; /*corresponde a la cantidad de columnas por fila*/
+        }
+    }
+
+    .card {
+        background-color: #fff;
+        padding: 40px;
+    }
+
+    .card-picture {
+        margin: 0 auto;
+        max-width: 200px;    
+    }
+    
+    .card-picture img {
+        border-radius: 50%;
+        width: 100%;
+    }
+
+/******************************************  FIN SECCION GRID  ********************************************************/
+
+
+
+
+/******************************************   SECCION CARRUSEL  ********************************************************/
+.carousel-item{
+   height: 650px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    /* Safari 6.0 - 9.0  usa -webkit-filter*/
+   /* 
+   Esto genera un tono de gris a la imagen original
+   -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); */
+     /* 
+   Esto baja el brillo a la imagen, haciendola mas oscura o clara
+   -webkit-filter: brightness(50%);
+    filter: brightness(50%);*/
+    
+}
+
+
+/******************************************  FIN SECCION CARRUSEL  ********************************************************/
+
+
+
+
+/******************************************  SECCION FOOTER  *******************************************************
+ * Creación de un footer que se mantiene en la pantalla abajo
+ * Se crea el footer utilizando la rejilla de Boostrap, esto con el fin de crear varias columnas
+    Una con la información, redes sociales y otra con un formulario para obtener información
+ */
+
+.section-footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background: #1c2331; 
+    position:relative;
+}
+.top-footer{   
+    width: 100%;  
+    background-color:#039491;
+    height: 10px;
+}
+
+.middle-footer{
+    text-align: center;    
+    padding: 2%;
+    color: white;
+}
+
+.bottom-footer{
+    background: black;
+    width: 100%;
+    height: 30px; 
+}
+/******************************************  FIN SECCION FOOTER  ********************************************************/
+
+
+

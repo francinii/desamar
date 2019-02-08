@@ -1,0 +1,10 @@
+<?php
+
+//***************************** Menu *********************************//
+$vocab["menu_inicio"]            = "Home";
+$vocab["menu_contactenos"]       = "Contact";
+$vocab["menu_acerca_de"]         = "About us";
+
+
+
+
