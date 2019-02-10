@@ -3,7 +3,9 @@
 //***************************** Menu *********************************//
 $vocab["menu_inicio"]            = "Inicio";
 $vocab["menu_contactenos"]       = "Contáctenos";
-$vocab["menu_acerca_de"]         = "Acerca de";
+$vocab["menu_acerca_de"]         = "Acerca de nosotros";
+$vocab["menu_servicios"]         = "Servicios";
+
 
 
 

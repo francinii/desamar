@@ -5,17 +5,18 @@
         <meta charset="UTF-8">        
         <title>Desamar</title>
         <?php
-         
         include('includes.php'); // se encarga de incluir las librerías necesarias
         $lang = locale_accept_from_http($_SERVER['HTTP_ACCEPT_LANGUAGE']);
-        ($lang == 'en')? include('lang/lang.en'): include('lang/lang.es');
-     
+        ($lang == 'en') ? include('lang/lang.en') : include('lang/lang.es');
         ?>
     </head>
+
     <body> 
-        <header class="section-container">             
-            <?php include('header.php'); ?>            
-        </header>
+        <header class="section-container">  
+            <div class="header-container"> 
+            </div>
+            <?php include('header.php'); ?> 
+        </header>        
 
         <section class="section-container container-grid">
             <article class="card">
@@ -109,15 +110,13 @@
                 </label>
             </div>
             <br><br><br><br>
-
-
-
-
         </section>
-
         <!----------------------------------- FIN ELEMENTOS DE USO COMUN EN BOOTSTRAP ----------------------------------->
 
         <?php include('footer.php'); ?>
 
+        <script src="inc/js/menuSticky.js" type="text/javascript"></script>
+
     </body>
+
 </html>

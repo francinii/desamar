@@ -3,42 +3,21 @@
     <div class="top-footer">
     </div>
     <div class="middle-footer row">
+        <div class="col-xs-4 col-md-4">Logo</div>
         <div class="col-xs-4 col-md-4">
             <h3>Contáctenos</h3>
-            <h3>Cellphone: 45342345</h3>
-            <h3>Email: fafi@gmail.com</h3>
+            <h4><i class="fas fa-phone-square "></i> 45342345/22754567</h4>
+            <h4><i class="fas fa-fax"></i> 22754567</h4>
+            <h4><i class="fas fa-envelope "></i> fafi@gmail.com</h4>
+            <h4><i class="fas fa-map-marker-alt "></i> Heredia, Lagunilla</h4>
         </div>
+
         <div class="col-xs-4 col-md-4">
             <h3>Redes Sociales</h3>
-        </div>
-        <div class="col-xs-4 col-md-4 container">
-            <form>
-                <h3>Contáctenos</h3>
-                <div class="form-group row">
-                    <label for="nombre" class="col-sm-2 label col-form-label">Nombre</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="email" class="col-sm-2 col-form-label">Email</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="email" placeholder="Email">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="mensaje" class="col-sm-2 col-form-label">Mensaje</label>
-                    <div class="col-sm-10">
-                        <textarea type="text" class="form-control" id="mensaje"
-                                  placeholder="Mensaje...">
-                        </textarea>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-            </form>
+            <i class="fab fa-facebook fa-3x">&nbsp;</i>
+            <i class="fab fa-twitter fa-3x">&nbsp;</i>
+            <i class="fab fa-linkedin fa-3x">&nbsp; </i>
         </div>
     </div>
-    <div class="bottom-footer"></div>
 </footer>
 <!-- FIN DEL FOOTER  -->
-
