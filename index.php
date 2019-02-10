@@ -15,7 +15,7 @@
         <header class="section-container">  
             <div class="header-container"> 
             </div>
-            <?php include('header.php'); ?> 
+             <?php include('header.php'); ?>
         </header>        
 
         <section class="section-container container-grid">

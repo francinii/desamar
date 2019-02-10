@@ -9,10 +9,15 @@
             var sticky = header.offsetTop;
 
             function fijarMenu() {
-                if (window.pageYOffset > sticky) {
+                if (window.pageYOffset > sticky) {                
+                 
+                  header.classList.remove("navigation-menu-show");
                     header.classList.add("sticky");
+                    
                 } else {
+                    
                     header.classList.remove("sticky");
+                    header.classList.add("navigation-menu-show");
                 }
             }
 
