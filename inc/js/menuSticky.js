@@ -7,7 +7,9 @@
 
 // Get the offset position of the navbar
             var sticky = header.offsetTop;
-
+           // var altura_del_header = $('#header-container').outerHeight(true);
+       
+            
             function fijarMenu() {
                 if (window.pageYOffset > sticky) {                
                  
