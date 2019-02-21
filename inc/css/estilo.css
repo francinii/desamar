@@ -9,25 +9,57 @@ body {
     overflow-x: hidden;
 }
 
+h1{
+    font-size: 80px;
+    font-style: normal; font-variant: normal;
+    color: #fff;
+    text-align: center;
+    font-family: Baskerville Old Face;    
+}
+
+h2{
+    font-size: 50px;
+    color: #334C6F;
+    font-family: Baskerville Old Face;
+    text-align: center;
+}
+h3{
+    font-size: 36px;
+    font-style: normal; font-variant: normal;
+    color: #FFF;
+    text-align: center;
+    font-family: Baskerville Old Face;
+}
+
+h4{
+    font-size: 25px;
+    font-style: normal; font-variant: normal;
+    color:  #334C6F;
+    text-align: center;
+    font-family: Baskerville Old Face;
+}
+
+
+
 p {
-    font-size: 1.4rem;
-    color: #6f889b;
-    margin: 0;
-  }
+    font-size: 20px;
+    font-family: Segoe UI;
+    color: #707070;
+    text-align: center;    
+}
 
 
 /*******************************************MENU DE NAVEGACION**************************************/
 #navigation-menu {
     width: 100%;
     height: 55px;
-    background: #365062;
+    /*background: #365062;*/
     border-bottom: 3px solid #9bae6e;
     z-index: 10;    
-    opacity: 0.75;
-    
-   /* opacity: 0.75;
-    position: fixed;
-    bottom: 0; */
+    opacity: 0.75;    
+    /* opacity: 0.75;
+     position: fixed;
+     bottom: 0; */
 }
 .navigation-menu-show{
     position: absolute;
@@ -36,6 +68,7 @@ p {
 
 .nav-item {
     padding: 1%;
+    color: white;
 }
 .nav-item a {
     font-size: large;
@@ -45,14 +78,15 @@ p {
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #334C6F;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 102px;
+    padding-top: 102px;
 }
 
 /*******************************************MENU DE NAVEGACION**************************************/
@@ -67,8 +101,8 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     width: 100%;
     padding: 0;
     margin: 0 auto;
-    background: beige;
-   /* height: 650px;   */
+    background: white;
+
 }
 /***************************************  FIN DE SECCIONES GENERAL    ********************************************************/
 
@@ -79,18 +113,79 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 
 /***************************************   SECCION HEADER CON IMAGEN    ***********************************************/
 .header-container{ 
+    padding-top: 15%;
     height: 100vh;
-    background: url('../../img/header.jpg') no-repeat center;  
+    background: url('../../img/portada.png') no-repeat center;  
     background-size: cover;
 }
 /***************************************  FIN SECCION HEADER CON IMAGEN   **********************************************/
 
 
+
+/******************************************  SECCION NUESTRA EMPRESA  *******************************************************/
+.nuestra-empresa {
+    padding: 10% 5% 10% 5%;
+    background-color: #F6F6F5;
+}
+
+.nuestra-empresa h2  {
+    padding-bottom: 5%;
+}
+
+
+/******************************************  SECCION NUESTRA ADUANA  *******************************************************/
+
+.nuestras-aduanas{
+    background-color: #F6F6F5;
+}
+
+/******************************************  SECCION NUESTROS SERVICIOS **************************************************/
+.nuestros-servicios{
+    padding: 5% 3% 5% 3%;    
+}
+
+.nuestros-servicios div.row{
+    padding-top: 5%;    
+}
+
+.servicio{
+    padding: 3% 2%;
+    position: relative;
+}
+
+.servicio h4{    
+    padding-top: 30%;
+}
+
+.servicio p{
+    font-size: 15px;
+    padding: 10% 5% 2% 5%;
+}
+
+.img-servicio{
+    background: url('../../img/portada.png') no-repeat center;  
+    height: 80px;
+    width: 80px;    
+    position: absolute;
+    right: 40%;
+    top: 0;
+}
+.borde{
+    border: 1px solid #334C6F;
+    padding: 2%;  
+    height: 100%;    
+}
+
+/******************************************  SECCION FOOTER  ******************************************************/
+.nuestras-aduanas{
+    padding: 5% 3% 5% 3%;
+}
+
 /******************************************  SECCION FOOTER  *******************************************************
  * Creación de un footer que se mantiene en la pantalla abajo
  * Se crea el footer utilizando la rejilla de Boostrap, esto con el fin de crear varias columnas
     Una con la información, redes sociales y otra con un formulario para obtener información
- */
+*/
 .section-footer{
     width: 100%;
     margin: 0 auto;
@@ -128,4 +223,12 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 }
 
 /******************************************  FIN SECCION FOOTER  ********************************************************/
+
+
+.colores{
+    color:#334C6F !important;
+}
+
+
+
 

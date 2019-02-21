@@ -14,7 +14,7 @@
 
         <div class="col-xs-4 col-md-4">
             <h3>Redes Sociales</h3>
-            <i class="fab fa-facebook fa-3x">&nbsp;</i>
+            <i class="fab fa-facebook fa-3x colores" id  = "">&nbsp;</i>
             <i class="fab fa-twitter fa-3x">&nbsp;</i>
             <i class="fab fa-linkedin fa-3x">&nbsp; </i>
         </div>
