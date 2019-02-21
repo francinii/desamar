@@ -25,9 +25,18 @@ $vocab["subtitulo_agencia_aduanal"]  = "AGENCIA ADUANAL";
 $vocab["subtitulo_transporte"]  = "TRANSPORTE";
 $vocab["subtitulo_seguridad"]  = "SEGURIDAD";
 $vocab["contenido_almacen_fiscal"]  = "";
-$vocab["contenido_agencia_aduanal"]  = "Nacionalización de mercancías, Confección de trámites y permisos,Exoneraciones, 
-                                        Asesoría en Tratados de libre comercio, Trámites de Importación y Exportación, Tramites de Zona franca, Asesorías en materia de clasificación arancelaria";
-$vocab["contenido_transporte"]  = "Ofrecemos a nuestros clientes Transporte de carga LCL / FC, Transporte aéreo, marítimo, terrestre desde Estados Unidos, Europa, Asia, Centroamérica y México.Transporte de carga local con camiones propios.";
+$vocab["contenido_agencia_aduanal"]  = "Nacionalización de mercancías
+                                        Confección de trámites y permisos 
+                                        Exoneraciones
+                                        Asesoría en Tratados de libre comercio
+                                        Trámites de Importación y Exportación
+                                        Tramites de Zona franca
+                                        Asesorías en materia de clasificación arancelaria";
+$vocab["contenido_transporte"]  = "Ofrecemos a nuestros clientes Transporte de carga LCL / FC
+                                    Transporte aéreo, marítimo, terrestre desde Estados Unidos, Europa, Asia, Centroamérica y México.
+                                    Transporte de carga local con camiones propios.";
+
+
 $vocab["contenido_seguridad"]  = "Servicio de seguro de sus mercancías de bodega a bodega, contra todo riesgo";
 
 

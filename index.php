@@ -88,10 +88,19 @@
 
 
 
-        <!------------------------------------ ADUANAS -------------------------------------->
+        <!------------------------------------ ALIANZAS -------------------------------------->
         <section class="section-container">
             <div class="nuestras-alianzas">                
-                <h2><?= $vocab["titulo_alianzas"] ?></h2>           
+                <h2><?= $vocab["titulo_alianzas"] ?></h2> 
+                <div class="alianzas row ">  
+                    <div class="offset-3 col-md-3 col-sm-3"> 
+                        <img src="../desamar/img/portada.png" height="120px">                        
+                    </div>
+                    <div class="col-md-3 col-sm-3">  
+                        <p>  <?= $vocab["contenido_alianza_siati"] ?>  </p>
+                    </div>
+                </div>
+
             </div>
         </section>
 

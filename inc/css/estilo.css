@@ -32,7 +32,7 @@ h3{
 }
 
 h4{
-    font-size: 25px;
+    font-size: 2rem;
     font-style: normal; font-variant: normal;
     color:  #334C6F;
     text-align: center;
@@ -42,7 +42,7 @@ h4{
 
 
 p {
-    font-size: 20px;
+    font-size: 1.25;
     font-family: Segoe UI;
     color: #707070;
     text-align: center;    
@@ -176,10 +176,32 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     height: 100%;    
 }
 
-/******************************************  SECCION FOOTER  ******************************************************/
+/******************************************  SECCION ADUANAS  ******************************************************/
 .nuestras-aduanas{
     padding: 5% 3% 5% 3%;
 }
+
+/******************************************  SECCION ALIANZAS  ******************************************************/
+
+.alianzas p{
+    text-align: left;
+}
+
+.alianzas div{
+    text-align: right;
+}
+
+.nuestras-alianzas {
+    padding: 5% 3% 5% 3%;   
+}
+
+  
+.nuestras-alianzas div.row{
+    padding-top: 3%;    
+}
+
+
+
 
 /******************************************  SECCION FOOTER  *******************************************************
  * Creación de un footer que se mantiene en la pantalla abajo
