@@ -49,7 +49,6 @@ $vocab["contenido_aduanas"]  = "Aduana Santamaría <br> Aduana Limón <br> Aduan
 //***************************** Sección de nuestras alianzas*********************************//
 $vocab["titulo_alianzas"]  = "Nuestras Alianzas";
 
-
 $vocab["contenido_alianza_siati"]  = "Phone: (305) 885-2077
 6117 N.W. 72nd AVE.
 Miami, Florida 33195-3705
@@ -58,3 +57,13 @@ www.siatiexpress.com";
 
 
 //***************************** Sección de contáctenos*********************************//
+
+$vocab["titulo_contactenos"]  = "Contáctenos";
+$vocab["contacto_telefono"] = "Teléfonos";
+$vocab["info_telefono"]  = "  PBX.:(506) 2262-2012 / 2262-2013 / 2248-4353";
+
+$vocab["contacto_ubicacion"] = "Ubicación";
+$vocab["info_ubicacion"]  = "Heredia, Lagunilla, De Amazon 100 metros oeste, 150 metros norte Inmobiliaria Emanuel.";
+
+$vocab["contacto_correo"] = "Correo";
+$vocab["info_correo"]  = "  PBX.:(506) 2262-2012 / 2262-2013 / 2248-4353";

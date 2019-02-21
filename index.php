@@ -34,33 +34,41 @@
             <div class="nuestros-servicios">                
                 <h2><?= $vocab["titulo_nuestros_servicios"] ?></h2>
                 <div class="row"> 
-                    <article class="servicio col-md-3 col-sm-6">    
+                    <article class="servicio col-lg-3 col-md-6 col-sm-6">    
                         <div class="borde">
-                            <div class="img-servicio"></div>                            
+                            <div class="img-servicio">
+                                <i class="fas fa-warehouse fa-4x colores"></i>                                
+                            </div>                            
                             <h4> <?= $vocab["subtitulo_almacen_fiscal"] ?> </h4>
                             <p> <?= $vocab["contenido_agencia_aduanal"] ?> </p>                           
                         </div>              
                     </article>
 
-                    <article class="servicio col-md-3 col-sm-6">    
+                    <article class="servicio col-lg-3 col-md-6  col-sm-6">    
                         <div class="borde">
-                            <div class="img-servicio"></div>                            
+                            <div class="img-servicio">
+                                <i class="fas fa-box-open  fa-4x colores"></i>
+                            </div>                            
                             <h4> <?= $vocab["subtitulo_agencia_aduanal"] ?> </h4>
                             <p> <?= $vocab["contenido_agencia_aduanal"] ?> </p>                           
                         </div>              
                     </article>
 
-                    <article class="servicio col-md-3 col-sm-6">    
+                    <article class="servicio col-lg-3 col-md-6  col-sm-6">    
                         <div class="borde">
-                            <div class="img-servicio"></div>                            
+                            <div class="img-servicio">
+                                <i class="fas fa-ship fa-4x colores"></i>
+                            </div>                            
                             <h4> <?= $vocab["subtitulo_transporte"] ?> </h4>
                             <p> <?= $vocab["contenido_transporte"] ?> </p>                           
                         </div>              
                     </article>
 
-                    <article class="servicio col-md-3 col-sm-6">    
+                    <article class="servicio col-lg-3 col-md-6  col-sm-6">    
                         <div class="borde">
-                            <div class="img-servicio"></div>                            
+                            <div class="img-servicio">
+                                <i class="fas fa-lock fa-4x colores"></i>
+                            </div>                            
                             <h4> <?= $vocab["subtitulo_seguridad"] ?> </h4>
                             <p> <?= $vocab["contenido_seguridad"] ?> </p>                           
                         </div>              
@@ -90,45 +98,67 @@
 
         <!------------------------------------ ALIANZAS -------------------------------------->
         <section class="section-container">
-            <div class="nuestras-alianzas">                
+            <div class="nuestras-alianzas container">                
                 <h2><?= $vocab["titulo_alianzas"] ?></h2> 
                 <div class="alianzas row ">  
-                    <div class="offset-3 col-md-3 col-sm-3"> 
-                        <img src="../desamar/img/portada.png" height="120px">                        
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 "> 
+                        <img src="../desamar/img/siati.png" height="70%">                        
                     </div>
-                    <div class="col-md-3 col-sm-3">  
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3  ">  
                         <p>  <?= $vocab["contenido_alianza_siati"] ?>  </p>
                     </div>
                 </div>
-
             </div>
         </section>
 
 
-        <section style="height: 500px; background: white;">
-            <div>&nbsp;</div>
-            <div>&nbsp;</div>
-            <div>&nbsp;</div>
-            <i class="fab fa-facebook fa-5x colores" id  = "">&nbsp;</i>
-            <i class="fab fa-twitter fa-5x colores">&nbsp;</i>
-            <i class="fab fa-linkedin fa-5x colores">&nbsp; </i><br><br>
-            &nbsp; &nbsp; &nbsp;  <i class="fas fa-ship fa-7x colores"> &nbsp;  </i>
-            <br><br><br>
-            &nbsp; &nbsp; &nbsp;   <i class="fas fa-lock fa-7x colores"></i><br><br>
-            <br><br><br>
-            &nbsp; &nbsp; &nbsp;  <i class="fas fa-box-open  fa-7x colores"></i><br><br>
-            &nbsp; &nbsp; &nbsp;  <i class="fas fa-warehouse fa-7x colores"></i><br>
+        <!------------------------------------ CONTACTO -------------------------------------->
+        <section class="section-container container-fluid">
+            <div class="nuestro-contacto row"> 
+                <div class="col-md-12 col-lg-6 col-sm-12 col-12">                     
+                    <h2><?= $vocab["titulo_contactenos"] ?></h2>                    
+                    <article class="row">
+                        <div class="offset-1 offset-md-1 offset-sm-1 col-2 col-sm-2 col-md-1 col-lg-1">
+                            <i class="fas  fa-2x fa-phone-square colores-invertido"></i>
+                        </div>
+                        <div class="col-9 col-sm-9 col-md-6 col-lg-10">         
+                            <h3> <?= $vocab["contacto_telefono"] ?></h3>
+                            <p> <?= $vocab["info_telefono"] ?></p>
+                        </div>
+                    </article>
+                    <br>
+                    <article class="row">
+                        <div class="offset-1 offset-md-1 offset-sm-1 col-2 col-sm-2 col-md-1 col-lg-1  ">
+                            <i class="fas fa-envelope fa-2x colores-invertido"></i>
+                        </div>
+                        <div class="col-9 col-sm-9 col-md-6 col-lg-10">  
+                            <h3> <?= $vocab["contacto_correo"] ?></h3>
+                            <p> <?= $vocab["info_correo"] ?></p>
+                        </div> 
+                    </article>
+                    <br>
+                    <article class="row">
+                        <div class="offset-1 offset-md-1 offset-sm-1 col-2 col-sm-2 col-md-1 col-lg-1  ">
+                            <i class="fas fa-map-marker-alt fa-2x colores-invertido"></i>
+                        </div>
+                        <div class="col-9 col-sm-9 col-md-6 col-lg-10">  
+                            <h3> <?= $vocab["contacto_ubicacion"] ?></h3>
+                            <p> <?= $vocab["info_ubicacion"] ?></p>
+                        </div> 
+                    </article>
 
+                    <article class="row">
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-11 d-flex justify-content-end">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d502354.17798478546!2d-83.95263494999999!3d10.37048155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scr!4v1550770062233" width="200" height="200" frameborder="0" style="border:0 ;    border-radius:250px; padding: 5" allowfullscreen></iframe>
+                        </div> 
+                    </article>
 
-        </section>
-        <!----------------------------------- FIN ELEMENTOS DE USO COMUN EN BOOTSTRAP ----------------------------------->
-        <section style="height: 500px; background: white;">
-            <div style="position: relative;">
-                <div style="position: absolute; left: 40px; top: 40px; background-color: blue;"> CUADRO 1 </div>
-                <div style="position: absolute; left: 80px; top: 90px; background-color: red;"> CUADRO 2 </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">  
+
+                </div>
             </div>
         </section>
-
         <?php include('footer.php'); ?>
 
         <script src="inc/js/menuSticky.js" type="text/javascript"></script>
