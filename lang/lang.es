@@ -47,7 +47,7 @@ $vocab["contenido_aduanas"]  = "Aduana Santamaría <br> Aduana Limón <br> Aduan
 
 
 //***************************** Sección de nuestras alianzas*********************************//
-$vocab["titulo_alianzas"]  = "Nuestras Alianzas";
+$vocab["titulo_alianzas"]  = " Nuestras Alianzas ";
 
 $vocab["contenido_alianza_siati"]  = "Phone: (305) 885-2077
 6117 N.W. 72nd AVE.

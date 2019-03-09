@@ -98,8 +98,10 @@
 
         <!------------------------------------ ALIANZAS -------------------------------------->
         <section class="section-container">
-            <div class="nuestras-alianzas container">                
-                <h2><?= $vocab["titulo_alianzas"] ?></h2> 
+            <div class="nuestras-alianzas container"> 
+                <hr>               
+                
+                <h2><?= $vocab["titulo_alianzas"] ?></h2>
                 <div class="alianzas row ">  
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 "> 
                         <img src="../desamar/img/siati.png" height="70%">                        
@@ -121,7 +123,7 @@
                         <div class="offset-1 offset-md-1 offset-sm-1 col-2 col-sm-2 col-md-1 col-lg-1">
                             <i class="fas  fa-2x fa-phone-square colores-invertido"></i>
                         </div>
-                        <div class="col-9 col-sm-9 col-md-6 col-lg-10">         
+                        <div class="col-8 col-sm-8 col-md-6 col-lg-10">         
                             <h3> <?= $vocab["contacto_telefono"] ?></h3>
                             <p> <?= $vocab["info_telefono"] ?></p>
                         </div>
@@ -131,7 +133,7 @@
                         <div class="offset-1 offset-md-1 offset-sm-1 col-2 col-sm-2 col-md-1 col-lg-1  ">
                             <i class="fas fa-envelope fa-2x colores-invertido"></i>
                         </div>
-                        <div class="col-9 col-sm-9 col-md-6 col-lg-10">  
+                        <div class="col-8 col-sm-8 col-md-6 col-lg-10">  
                             <h3> <?= $vocab["contacto_correo"] ?></h3>
                             <p> <?= $vocab["info_correo"] ?></p>
                         </div> 
@@ -141,7 +143,7 @@
                         <div class="offset-1 offset-md-1 offset-sm-1 col-2 col-sm-2 col-md-1 col-lg-1  ">
                             <i class="fas fa-map-marker-alt fa-2x colores-invertido"></i>
                         </div>
-                        <div class="col-9 col-sm-9 col-md-6 col-lg-10">  
+                        <div class="col-8 col-sm-8 col-md-6 col-lg-10">  
                             <h3> <?= $vocab["contacto_ubicacion"] ?></h3>
                             <p> <?= $vocab["info_ubicacion"] ?></p>
                         </div> 
