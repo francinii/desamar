@@ -14,12 +14,9 @@
 
     </head>
 
-    <body>      
-
-
-
+    <body>     
         <!--  INICIO DEL CARRUSEL-->
-        <section id ="inicio" class="section-container parallax">
+        <section id ="inicio" class="section-container ">
             <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-interval="3000" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -59,7 +56,7 @@
         </section>
         <!--  FINAL DEL CARRUSEL-->
 
-        <!------------------------------------ NUESTRA EMPREAS -------------------------------------->
+        <!------------------------------------ NUESTRA EMPREsAS -------------------------------------->
         <section id ="acerca" class="section-container">
             <div class="nuestra-empresa">                
                 <h2><?= $vocab["titulo_nuestra_empresa"] ?></h2>
