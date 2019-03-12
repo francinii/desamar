@@ -10,7 +10,7 @@
         $lang = locale_accept_from_http($_SERVER['HTTP_ACCEPT_LANGUAGE']);
         ($lang == 'en') ? include('lang/lang.en') : include('lang/lang.es');
         ?>
-  
+
 
     </head>
 
@@ -117,17 +117,22 @@
 
 
         <!------------------------------------ ADUANAS -------------------------------------->
-        <section id ="aduanas" class="section-container">
-            <div class="nuestras-aduanas ">  
+        <section id ="aduanas" class="section-container  ">
+            <div class="nuestras-aduanas header-container parallax ">  
                 <h2><?= $vocab["titulo_aduanas"] ?></h2> 
-                <div class="row">                     
-                    <article class="servicio col-md-6 col-sm-6">     
-                        MAPITA
-                    </article>
-
-                    <article class="servicio col-md-6 col-sm-6">     
-                        <p>  <?= $vocab["contenido_aduanas"] ?>  </p>
-                    </article>
+                <div class="row">  
+                    <div>
+                        <script type="text/javascript">
+                            $(function () {
+                                $('#costaRica-map').JSMaps({
+                                    map: 'costaRica'
+                                });
+                            });
+                        </script>
+                    </div>            
+                    <div class="container containermap ">                        
+                        <div class="jsmaps-wrapper" id="costaRica-map"></div>                      
+                    </div>
                 </div>
             </div>
         </section>

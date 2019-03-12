@@ -119,7 +119,8 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 /***************************************   SECCION HEADER CON IMAGEN    ***********************************************/
 .header-container{ 
     padding-top: 15%;
-    height: 100vh;
+    padding-bottom: 5%;
+    
     background: url('../../img/portada.png') no-repeat center;  
     background-size: cover;
 }
@@ -129,9 +130,10 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 /******************************************   SECCION CARRUSEL  ********************************************************/
 
 .parallax { 
-    background-attachment: fixed;
-    
+    background-attachment: fixed;    
 }
+
+
 .carousel-caption{    
     top: 50%; 
     transform: translateY(-50%); 
@@ -176,7 +178,11 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 /******************************************  SECCION NUESTRA ADUANA  *******************************************************/
 
 .nuestras-aduanas{
-    background-color: #F6F6F5;
+    background-color: #334C6F;
+}
+
+.nuestras-aduanas h2{
+    color: #fff;
 }
 
 /******************************************  SECCION NUESTROS SERVICIOS **************************************************/
@@ -219,6 +225,10 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 /******************************************  SECCION ADUANAS  ******************************************************/
 .nuestras-aduanas{
     padding: 5% 3% 5% 3%;
+}
+
+#costaRica-map{
+     padding-top: 10%;
 }
 
 /******************************************  SECCION ALIANZAS  ******************************************************/
@@ -333,6 +343,9 @@ hr:after {content:"Nuestras alianzas";
 
 
 /******************************************  RESPONSIVE DESIGN  ********************************************************/
+
+
+
 /*** Small devices (landscape phones, 576px and up)***/
 @media (min-width: 36rem) { 
     body { 
@@ -346,6 +359,7 @@ hr:after {content:"Nuestras alianzas";
     body { 
         font-size: 1rem;
     }
+   
 }
 
 /*** Large devices (desktops, 992px and up) **/
@@ -362,3 +376,4 @@ hr:after {content:"Nuestras alianzas";
     }
 
 }
+
