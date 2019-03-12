@@ -9,7 +9,7 @@
         <li class="nav-item"> <a> | </a> </li>  
         <li class="nav-item"> <a href="#alianzas"> <?= $vocab["menu_alianzas"] ?>  </a></li>
         <li class="nav-item"> <a> | </a> </li>  
-        <li class="nav-item"> <a href="#duanas"> <?= $vocab["menu_aduanas"] ?>  </a></li>
+        <li class="nav-item"> <a href="#aduanas"> <?= $vocab["menu_aduanas"] ?>  </a></li>
         <li class="nav-item"> <a> | </a> </li>  
         <li class="nav-item"> <a href="#contactenos"> <?= $vocab["menu_contactenos"] ?>  </a></li>
     </ul>

@@ -118,7 +118,7 @@
 
         <!------------------------------------ ADUANAS -------------------------------------->
         <section id ="aduanas" class="section-container  ">
-            <div class="nuestras-aduanas header-container parallax ">  
+            <div class="nuestras-aduanas   ">  
                 <h2><?= $vocab["titulo_aduanas"] ?></h2> 
                 <div class="row">  
                     <div>
