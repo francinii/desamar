@@ -4,25 +4,63 @@
     <head>
         <meta charset="UTF-8">        
         <title>Desamar</title>
+
         <?php
         include('includes.php'); // se encarga de incluir las librerías necesarias
         $lang = locale_accept_from_http($_SERVER['HTTP_ACCEPT_LANGUAGE']);
         ($lang == 'en') ? include('lang/lang.en') : include('lang/lang.es');
         ?>
+  
 
     </head>
 
-    <body> 
-        <header class="section-container">  
-            <div class="header-container"> 
-                <h1>  <?= $vocab["titulo_principal"] ?></h1>
-                <h3>  <?= $vocab["lema"] ?></h3>
+    <body>      
+
+
+
+        <!--  INICIO DEL CARRUSEL-->
+        <section id ="inicio" class="section-container parallax">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-interval="3000" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active portada1">
+                        <div class="carousel-caption d-none d-md-block mask pattern-8">
+                            <h1>  <?= $vocab["titulo_principal"] ?></h1>
+                            <h3>  <?= $vocab["lema"] ?></h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item portada2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>  <?= $vocab["titulo_principal"] ?></h1>
+                            <h3>  <?= $vocab["lema"] ?></h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item portada3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>  <?= $vocab["titulo_principal"] ?></h1>
+                            <h3>  <?= $vocab["lema"] ?></h3>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
             <?php include('header.php'); ?>
-        </header>        
+        </section>
+        <!--  FINAL DEL CARRUSEL-->
 
         <!------------------------------------ NUESTRA EMPREAS -------------------------------------->
-        <section class="section-container">
+        <section id ="acerca" class="section-container">
             <div class="nuestra-empresa">                
                 <h2><?= $vocab["titulo_nuestra_empresa"] ?></h2>
                 <p> <?= $vocab["contenido_nuestra_empresa"] ?></p>
@@ -30,7 +68,7 @@
         </section>
 
         <!------------------------------------ NUESTROS SERVICIOS -------------------------------------->
-        <section class="section-container">
+        <section id ="servicios"  class="section-container">
             <div class="nuestros-servicios">                
                 <h2><?= $vocab["titulo_nuestros_servicios"] ?></h2>
                 <div class="row"> 
@@ -79,7 +117,7 @@
 
 
         <!------------------------------------ ADUANAS -------------------------------------->
-        <section class="section-container">
+        <section id ="aduanas" class="section-container">
             <div class="nuestras-aduanas ">  
                 <h2><?= $vocab["titulo_aduanas"] ?></h2> 
                 <div class="row">                     
@@ -97,10 +135,10 @@
 
 
         <!------------------------------------ ALIANZAS -------------------------------------->
-        <section class="section-container">
+        <section id ="alianzas"  class="section-container">
             <div class="nuestras-alianzas container"> 
                 <hr>               
-                
+
                 <h2><?= $vocab["titulo_alianzas"] ?></h2>
                 <div class="alianzas row ">  
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 "> 
@@ -115,7 +153,7 @@
 
 
         <!------------------------------------ CONTACTO -------------------------------------->
-        <section class="section-container container-fluid">
+        <section id ="contactenos"  class="section-container container-fluid">
             <div class="nuestro-contacto row"> 
                 <div class="col-md-12 col-lg-6 col-sm-12 col-12">                     
                     <h2><?= $vocab["titulo_contactenos"] ?></h2>                    
