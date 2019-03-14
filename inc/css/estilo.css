@@ -57,7 +57,7 @@ hr{
 #navigation-menu {
     width: 100%;    
     /*background: #365062;*/
-    border-bottom: 3px solid #9bae6e;
+    border-bottom: 3px solid #AE0012;
     z-index: 10;    
     opacity: 0.75;    
     /* opacity: 0.75;
@@ -325,7 +325,7 @@ hr:after {content:"Nuestras alianzas";
 }
 
 .middle-footer{
-    border-top: 5px solid #9bae6e;
+    border-top: 5px solid #AE0012;
     text-align: center;    
     padding: 2%;
     color: white;
