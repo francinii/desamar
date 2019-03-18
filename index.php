@@ -139,9 +139,14 @@
         <!------------------------------------ ALIANZAS -------------------------------------->
         <section id ="alianzas"  class="section-container">
             <div class="nuestras-alianzas container"> 
-                <hr>               
-
-                <h2><?= $vocab["titulo_alianzas"] ?></h2>
+                <div class="row">  
+                    
+                        <div class="linea">&nbsp;</div>
+                        <div class="leyenda h2">Dirección en Miami</div>
+                        <div class="linea">&nbsp;</div>
+                    
+                </div>    
+            
                 <div class="alianzas row ">  
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 "> 
                         <img src="../desamar/img/siati.png" height="70%">                        
@@ -197,7 +202,19 @@
 
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">  
+                    <h2><?= $vocab["titulo_formularioContacto"] ?></h2> 
+                    <div id="divFormulario">
+                        <form action="mail.php" method="post">
 
+                            <input type="text" class="form-control" name="nombre" placeholder=" Nombre y apellido" required=""><br>
+                            <input type="mail" class="form-control" name="correo" placeholder=" Correo electrónico" required=""><br>
+                            <input type="text" class="form-control" name="telefono" placeholder=" Teléfono" required=""><br>
+                            <textarea id="mensaje" name="mensaje" class="form-control" placeholder=" Escribe tu mensaje aquí..." required=""></textarea><br><br><br>
+                            <button type="button" class="btn btn-primary btn-md">Enviar</button>
+                            <input type="hidden" name="formIndex" value="1">
+
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>

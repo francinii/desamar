@@ -2,7 +2,7 @@
 <footer class="section-footer">   
     <div class="middle-footer row">
         <div class="col-6 col-sm-6 col-md-6 d-flex justify-content-start">
-             <img src="../desamar/img/siati.png" height="60px">   
+            <img src="../desamar/img/logo.png" height="95px">   
         </div>   
        
         <div class="col-6 col-sm-6 col-md-6  d-flex justify-content-end">       
