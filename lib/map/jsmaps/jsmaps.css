@@ -169,7 +169,7 @@
     height: 12px;
     @-moz-document url-prefix() {
       margin-top: -1px; }
- }
+
     [class*="jsmaps-icon"].jsmaps-icon-plus:before, [class*="jsmaps-icon"].jsmaps-icon-plus:after {
       background: white; }
     [class*="jsmaps-icon"].jsmaps-icon-plus:before {
@@ -190,7 +190,8 @@
     height: 12px;
     @-moz-document url-prefix() {
       margin-top: -1px; }
- }
+    
+    
     [class*="jsmaps-icon"].jsmaps-icon-minus:before, [class*="jsmaps-icon"].jsmaps-icon-minus:after {
       background: white; }
     [class*="jsmaps-icon"].jsmaps-icon-minus:before {
