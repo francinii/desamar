@@ -4,8 +4,8 @@
 <script src="lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="lib/bootstrap/js/bootstrap-filestyle.min.js" type="text/javascript"></script>
 <!-- Includes de las funciones -->
-<script src="inc/js/jquery.js" type="text/javascript"></script>                
-        
+<!--  <script src="inc/js/jquery.js" type="text/javascript"></script>    -->             
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
 
 
                 

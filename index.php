@@ -210,9 +210,10 @@
                             <input type="mail" class="form-control" name="correo" placeholder=" Correo electrónico" required=""><br>
                             <input type="text" class="form-control" name="telefono" placeholder=" Teléfono" required=""><br>
                             <textarea id="mensaje" name="mensaje" class="form-control" placeholder=" Escribe tu mensaje aquí..." required=""></textarea><br><br><br>
-                            <button type="button" class="btn btn-primary btn-md">Enviar</button>
-                            <input type="hidden" name="formIndex" value="1">
-
+                            
+                            <div class="row btnContacto">
+                                <button type="button" class="btn btn-primary btn-md">Enviar</button>
+                            </div>
                         </form>
                     </div>
                 </div>

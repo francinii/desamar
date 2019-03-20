@@ -263,7 +263,7 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 }
 
 .linea {
-  margin:0px 20px;
+  margin:0px 1%;
   width:29%;    
   border-top:2px solid #999;
   position: relative;
@@ -283,7 +283,7 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 
 
 
-/******************************************  SECCION FOOTER  ************************************************/
+/******************************************  SECCION Contactenos  ************************************************/
 .nuestro-contacto{
     background-color:  #F8F8F8;
 }
@@ -331,6 +331,16 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     padding-bottom: 5%;
 }
 
+.btnContacto{
+    display: flex;
+    justify-content: center; 
+}
+
+.btnContacto button{
+    background: #334c6f;
+    width: 25%;
+    border-color: #334c6f;
+}
 
 
 /******************************************  SECCION FOOTER  *******************************************************
@@ -374,32 +384,87 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 
 
 
-/*** Small devices (landscape phones, 576px and up)***/
-@media (min-width: 36rem) { 
+
+
+/*** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) and (max-width: 979px) {
     body { 
         font-size: 1rem;
+        
+    }  
+    .brand {
+        display: none;
     }
+    
+    .leyenda{
+        font-size: 2.0em;
+    }
+    
+    .linea {
+        width: 25%;
+    }
+    
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .leyenda{
+        font-size: 2.0em;
+    }
+    
+    .linea {
+        width: 25%;
+        margin: 0px 2%;
+    }
+    
+    .col-12 img{  
+        margin-right: 35%;
+    }
+    
+    .container {
+    max-width: 98%;
+    }
+    
+    .img-servicio{
+        right: 37%;
+        top: -5%;
+    }
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 630px) { 
+
+     .linea {
+       display: none;
+        
+    }
+    .leyenda{
+        margin: auto;
+    }
+    
     
 }
 
-/*** Medium devices (tablets, 768px and up) **/
-@media (min-width: 48rem) { 
-    body { 
-        font-size: 1rem;
-    }   
-}
-
-/*** Large devices (desktops, 992px and up) **/
-@media (min-width: 62 rem ) {  
-    body { 
-        font-size: 1rem;
+@media (max-width: 570px) { 
+  
+     .col-12 img{  
+        margin-right: 25%;
     }
-}
-
-/*** Extra large devices (large desktops, 1200px and up) **/
-@media (min-width: 75rem) { 
-    body { 
-        font-size: 1rem;
+    
+    .borde{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .img-servicio{
+        right: 41%;
+    }
+    
+    .servicio{
+        margin-bottom: 58px;
     }
 }
 
