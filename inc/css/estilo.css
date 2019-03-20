@@ -9,6 +9,14 @@ body {
     font-size: 1rem;
 }
 
+    #menuResponsive{
+        display: none;
+    }
+    
+    .imgmenu{
+        display: none;
+    }
+
 h1{
     font-size: 3em;
     font-style: normal; font-variant: normal;
@@ -391,11 +399,7 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     body { 
         font-size: 1rem;
         
-    }  
-    .brand {
-        display: none;
-    }
-    
+    }    
     .leyenda{
         font-size: 2.0em;
     }
@@ -405,10 +409,17 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     }
     
 
+    
+
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+    
+    .nav-item a {
+        font-size: 1em;
+    }
+    
     .leyenda{
         font-size: 2.0em;
     }
@@ -430,12 +441,19 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
         right: 37%;
         top: -5%;
     }
+   .imgmenu {
+    margin-right: 10px;
+    padding-top: 5px;
+    display: none;
+    float: right !important;
+    }
+    
+
 
 }
 
 /* Landscape phones and down */
 @media (max-width: 630px) { 
-
      .linea {
        display: none;
         
@@ -444,6 +462,30 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
         margin: auto;
     }
     
+    .imgmenu {
+        display: inline;
+    }
+    
+   .justify-content-end{
+        display: none;
+    }
+    
+    #menuResponsive{
+        display: inline;
+        top: 60px;
+        width: 56%;
+        height: 90%;
+        margin: 0;
+        position: fixed;
+        left: -100%;
+        z-index: 10;
+        background: #080f3e;
+
+    }
+
+
+
+
     
 }
 

@@ -29,7 +29,4 @@
   <script src="lib/map/maps/costaRica.js" type="text/javascript"></script>
   <!-- End Map scripts -->
 
-
-
-
-
+  <script src="inc/js/jsMenuResponsive.js" type="text/javascript"></script>
