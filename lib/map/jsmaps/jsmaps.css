@@ -89,9 +89,6 @@
   display: none; }
   .jsmaps-select.all-devices {
     display: block; }
-  @media (max-width: 767px) {
-    .jsmaps-select.mobile {
-      display: block; } }
   @media (min-width: 768px) {
     .jsmaps-select.tablet {
       display: block; } }

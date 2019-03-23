@@ -52,11 +52,12 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+            
             <?php include('header.php'); ?>
         </section>
         <!--  FINAL DEL CARRUSEL-->
 
-        <!------------------------------------ NUESTRA EMPREsAS -------------------------------------->
+        <!------------------------------------ NUESTRA EMPRESAS -------------------------------------->
         <section id ="acerca" class="section-container">
             <div class="nuestra-empresa">                
                 <h2><?= $vocab["titulo_nuestra_empresa"] ?></h2>
