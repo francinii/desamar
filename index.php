@@ -16,43 +16,55 @@
 
     <body>     
         <!--  INICIO DEL CARRUSEL-->
+
+
+
         <section id ="inicio" class="section-container ">
+
+
+
+
             <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-interval="3000" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
+
+
+
                 <div class="carousel-inner">
+
+
+
+
                     <div class="carousel-item active portada1">
-                        <div class="carousel-caption d-none d-md-block mask pattern-8">
-                            <h1>  <?= $vocab["titulo_principal"] ?></h1>
-                            <h3>  <?= $vocab["lema"] ?></h3>
+                        <div class="carousel-caption d-none d-md-block mask pattern-8 pantalla-1-Carrusel">
+                            <h2>GRUPO DESAMAR</h2>
+                            <h3>Su satisfaccion es nuestro impuso para</h3>       
+                            <h3>seguir adelante</h3>       
+                            
                         </div>
                     </div>
+
                     <div class="carousel-item portada2">
                         <div class="carousel-caption d-none d-md-block">
-                            <h1>  <?= $vocab["titulo_principal"] ?></h1>
-                            <h3>  <?= $vocab["lema"] ?></h3>
+                            <h2>Hola</h2>
+                            <h3>Hola, esto es un ejemplo de item de un carrusel con texto</h3>   
                         </div>
                     </div>
                     <div class="carousel-item portada3">
                         <div class="carousel-caption d-none d-md-block">
-                            <h1>  <?= $vocab["titulo_principal"] ?></h1>
-                            <h3>  <?= $vocab["lema"] ?></h3>
+                            <h2>Hola</h2>
+                            <h3>Hola, esto es un ejemplo de item de un carrusel con texto</h3>   
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+
+
+
             </div>
-            
+
             <?php include('header.php'); ?>
         </section>
         <!--  FINAL DEL CARRUSEL-->
@@ -63,7 +75,34 @@
                 <h2><?= $vocab["titulo_nuestra_empresa"] ?></h2>
                 <p> <?= $vocab["contenido_nuestra_empresa"] ?></p>
             </div>
+            
+            <div id ="valores"  class="section-container container-fluid">
+                <div class="nuestro-valor row">
+                    <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
+                        <h1 id="comprimiso"> Compromiso </h1>
+                    </div>    
+                    
+                    <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
+                         <h1 id="confianza"> Solidez </h1>
+                    </div> 
+                    
+                    <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
+                         <h1 id="liderazgo"> Confianza </h1>
+                    </div> 
+                    
+                    <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
+                         <h1 id="calidad"> Calidad </h1>
+                    </div> 
+                        
+                </div>
+            </div>
+
         </section>
+
+
+        <!------------------------------------ NUESTROS VALORES -------------------------------------->
+
+
 
         <!------------------------------------ NUESTROS SERVICIOS -------------------------------------->
         <section id ="servicios"  class="section-container">
@@ -116,21 +155,28 @@
 
         <!------------------------------------ ADUANAS -------------------------------------->
         <section id ="aduanas" class="section-container  ">
-            <div class="nuestras-aduanas   ">  
-                <h2><?= $vocab["titulo_aduanas"] ?></h2> 
-                <div class="row">  
-                    <div>
-                        <script type="text/javascript">
-                            $(function () {
-                                $('#costaRica-map').JSMaps({
-                                    map: 'costaRica'
+            <div class="parallax"> 
+                <div class="nuestras-aduanas   ">  
+                    <h2><?= $vocab["titulo_aduanas"] ?></h2> 
+
+
+                    <div class="row">  
+                        <div>
+                            <script type="text/javascript">
+                                $(function () {
+                                    $('#costaRica-map').JSMaps({
+                                        map: 'costaRica'
+                                    });
                                 });
-                            });
-                        </script>
-                    </div>            
-                    <div class="container containermap ">                        
-                        <div class="jsmaps-wrapper" id="costaRica-map"></div>                      
+                            </script>
+                        </div>            
+                        <div class="container containermap ">                        
+                            <div class="jsmaps-wrapper" id="costaRica-map"></div>                      
+                        </div>
                     </div>
+
+
+
                 </div>
             </div>
         </section>
@@ -141,13 +187,13 @@
         <section id ="alianzas"  class="section-container">
             <div class="nuestras-alianzas container"> 
                 <div class="row">  
-                    
-                        <div class="linea">&nbsp;</div>
-                        <div class="leyenda h2">Dirección en Miami</div>
-                        <div class="linea">&nbsp;</div>
-                    
+
+                    <div class="linea">&nbsp;</div>
+                    <div class="leyenda h2">Dirección en Miami</div>
+                    <div class="linea">&nbsp;</div>
+
                 </div>    
-            
+
                 <div class="alianzas row ">  
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 "> 
                         <img src="../desamar/img/siati.png" height="70%">                        
@@ -211,7 +257,7 @@
                             <input type="mail" class="form-control" name="correo" placeholder=" Correo electrónico" required=""><br>
                             <input type="text" class="form-control" name="telefono" placeholder=" Teléfono" required=""><br>
                             <textarea id="mensaje" name="mensaje" class="form-control" placeholder=" Escribe tu mensaje aquí..." required=""></textarea><br><br><br>
-                            
+
                             <div class="row btnContacto">
                                 <button type="button" class="btn btn-primary btn-md">Enviar</button>
                             </div>

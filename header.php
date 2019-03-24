@@ -5,7 +5,7 @@
     </a>
     
     <a class="brand imgmenu">
-            <img src="img/menu.png" onclick="aparecerMenu()">
+        <img src="img/menu.png" onclick="aparecerMenu()"> 
     </a>
             
     <ul class="nav justify-content-end">
