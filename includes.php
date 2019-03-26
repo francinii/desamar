@@ -35,4 +35,4 @@
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
-<link rel="icon" href="img/fav.png" type="image/x-icon">		   
+<link rel="icon" href="img/fav.png" type="image/x-icon">	

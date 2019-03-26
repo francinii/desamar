@@ -413,10 +413,20 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     justify-content: center; 
 }
 
-.btnContacto button{
+#btnEnviar{
     background: #334c6f;
     width: 25%;
     border-color: #334c6f;
+    color: white;
+    border-radius: 5px;     
+}
+#btnEnviar : hover{
+    color: purple;
+    background: #51adf3;
+    
+}
+.pointer {
+    cursor: pointer;
 }
 
 

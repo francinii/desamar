@@ -251,7 +251,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">  
                     <h2><?= $vocab["titulo_formularioContacto"] ?></h2> 
                     <div id="divFormulario">
-                        <form action="mail.php" method="post">
+                        <form action="lib/mail.php" method="post">
 
                             <input type="text" class="form-control" name="nombre" placeholder=" Nombre y apellido" required=""><br>
                             <input type="mail" class="form-control" name="correo" placeholder=" Correo electrónico" required=""><br>
@@ -259,7 +259,7 @@
                             <textarea id="mensaje" name="mensaje" class="form-control" placeholder=" Escribe tu mensaje aquí..." required=""></textarea><br><br><br>
 
                             <div class="row btnContacto">
-                                <button type="button" class="btn btn-primary btn-md">Enviar</button>
+                                <input  id="btnEnviar" type="submit" class="pointer" value="Enviar" /><br>
                             </div>
                         </form>
                     </div>
