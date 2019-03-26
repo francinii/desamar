@@ -79,10 +79,12 @@ hr{
     /* opacity: 0.75;
      position: fixed;
      bottom: 0; */
+    
 }
 .navigation-menu-show{
     position: absolute;
     bottom: 0; 
+    margin-top: -50px;
 }
 
 .nav-item {
@@ -507,7 +509,13 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
         margin-left: -4%;
         margin-top: 0%;  
     }
-    
+    svg{
+        height: 217px !important;
+        width: 100% !important;
+    }
+    .jsmaps-text{
+        width: 420px !important;
+    }
     
 }
 
@@ -563,8 +571,8 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 }
 
 /* Landscape phones and down */
-@media (max-width: 630px) { 
-     .linea {
+@media (max-width: 630px) {    
+    .linea {
        display: none;
         
     }
@@ -582,13 +590,13 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     
     #menuResponsive{
         display: inline;
-        top: 50px;
-        width: 56%;
-        height: 90%;
+        top: 0px;
+        width: 60%;
+        height: 100%;
         margin: 0;
         position: fixed;
         left: -100%;
-        z-index: 10;
+        z-index: 1;
         background: #40403f;
 
     }
@@ -603,7 +611,7 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     
     
     .navResposive{
-        margin-top: 0%;
+        margin-top: 22%;
         
     }
 
@@ -621,9 +629,12 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     
     .parallax{
         height: 750px;
+    }   
+    
+    .navResposive{
+        width: 5;
+        height: 5;
     }
-
-  
 }
 
 @media (max-width: 570px) { 

@@ -14,14 +14,13 @@
 
     </head>
 
-    <body>     
+    <body>
+        
+        <?php //include('headerResponsive.php'); ?>
+        
         <!--  INICIO DEL CARRUSEL-->
 
-
-
         <section id ="inicio" class="section-container ">
-
-
 
 
             <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-interval="3000" data-ride="carousel">
@@ -49,15 +48,16 @@
 
                     <div class="carousel-item portada2">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2>Hola</h2>
-                            <h3>Hola, esto es un ejemplo de item de un carrusel con texto</h3>   
+                            <h2>GRUPO DESAMAR</h2>
+                            <h3>Su satisfaccion es nuestro impuso para</h3>       
+                            <h3>seguir adelante</h3>      
                         </div>
                     </div>
                     <div class="carousel-item portada3">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2>Hola</h2>
-                            <h3>Hola, esto es un ejemplo de item de un carrusel con texto</h3>   
-                        </div>
+                            <h2>GRUPO DESAMAR</h2>
+                            <h3>Su satisfaccion es nuestro impuso para</h3>       
+                            <h3>seguir adelante</h3>                           </div>
                     </div>
                 </div>
 
