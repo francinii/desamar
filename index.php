@@ -39,8 +39,8 @@
 
                     <div class="carousel-item active portada1">
                         <div class="carousel-caption d-none d-md-block mask pattern-8 pantalla-1-Carrusel">
-                            <h2 class="tituloCarrusel">GRUPO DESAMAR</h2>
-                            <p class="textoCarrusel">Su
+                            <h2 class="tituloCarrusel aniview animated bounceInDown">GRUPO DESAMAR</h2>
+                            <p class="textoCarrusel aniview animated bounceInUp">Su
                                 <span class="textoCarrusel textoAzul"> satisfacción </span>
                               es nuestro impulso para      
                                 seguir adelante</p>
@@ -50,7 +50,7 @@
 
                     <div class="carousel-item portada2">
                         <div class="carousel-caption d-none d-md-block pantalla-2-Carrusel">
-                            <h2 class="textoCarrusel">Valioso
+                            <h2 class="textoCarrusel aniview animated bounceInLeft">Valioso
                                 <span class="textoCarrusel textoAzul"> Recurso Humano  </span>
                                 a su disposición
                             </h2>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="carousel-item portada3">
                         <div class="carousel-caption d-none d-md-block pantalla-3-Carrusel">
-                           <h2 class="textoCarrusel">Con más de 15 años de 
+                           <h2 class="textoCarrusel aniview animated bounceInRight">Con más de 15 años de 
                                 <span class="textoCarrusel textoAzul"> experiencia </span>
                             
                             </h2>
