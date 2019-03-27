@@ -5,6 +5,8 @@
             <img id="foterLogo" src="../desamar/img/logoBlanco.png" height="95px">   
         </div>   
         
+        <!--  En caso de que se coloquen redes sociales -->
+        <!-- 
         <div class="col-12 col-sm-12 col-md-12  d-flex justify-content-end" >   
             <div id="redesSocialesFooter">
                 <i class="fab fa-facebook fa-2x">&nbsp;</i>
@@ -12,7 +14,7 @@
                 <i class="fab fa-linkedin fa-2x">&nbsp; </i>
             </div>
         </div>
-       
+       -->
         <div class="col-12 col-sm-12 col-md-12" id="lineaFooter">   
         
         

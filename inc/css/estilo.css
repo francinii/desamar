@@ -174,9 +174,58 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     height: 100vh;   
     background-size: cover;
 }
+
 .pantalla-1-Carrusel {
     font-size: 1.7em;
-    margin-top: -5%;
+    margin-top: -15%;
+    background: rgba(5, 5, 5, 0.5);
+    width: 100%;
+    margin-left: -15%;
+    height: 250px;
+}
+
+.pantalla-2-Carrusel {
+    font-size: 1.25em;
+    margin-left: -10%;
+    background: rgba(5, 5, 5, 0.5);
+    width: 30%;
+    height: 95%;
+    top: 44%;
+}
+
+.pantalla-3-Carrusel {
+    font-size: 1.25em;
+    margin-left: 50%;
+    background: rgba(5, 5, 5, 0.5);
+    width: 30%;
+    height: 95%;
+    top: 44%;
+}
+
+.pantalla-3-Carrusel .textoCarrusel{
+    margin-top: 35%;
+}
+
+.pantalla-2-Carrusel .textoCarrusel{
+    margin-top: 35%;
+}
+
+.tituloCarrusel{
+    font-size: 3em;
+    font-family: dearponypersonalusebold; 
+    font-weight: bold;
+    color: white;
+}
+
+
+.textoCarrusel{ 
+    color: white;  
+}
+
+.textoAzul{
+    color:#00aaff; 
+    font-family: endolittaregular;
+    font-size: 1.3em;
 }
 
 
@@ -525,6 +574,25 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     }
     .jsmaps-text{
         width: 420px !important;
+    }
+    
+    .pantalla-1-Carrusel {
+        width: 100%;
+        margin-left: -15%;
+        height: 250px;
+    }
+
+    .pantalla-2-Carrusel {
+        width: 60%;
+        height: 95%;
+        top: 44%;
+    }
+
+    .pantalla-3-Carrusel {
+        width: 60%;
+        height: 95%;
+        top: 44%;
+        margin-left: 15%;
     }
     
 }

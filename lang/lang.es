@@ -61,7 +61,7 @@ www.siatiexpress.com";
 
 $vocab["titulo_contactenos"]  = "Contáctenos";
 $vocab["contacto_telefono"] = "Teléfonos";
-$vocab["info_telefono"]  = "  PBX.:(506) 2262-2012 / 2262-2013 / 2248-4353";
+$vocab["info_telefono"]  = "  PBX.:(506) 2262-2012 / 2248-4353";
 
 $vocab["contacto_ubicacion"] = "Ubicación";
 $vocab["info_ubicacion"]  = "Heredia, Lagunilla, De Amazon 100 metros oeste, 150 metros norte Inmobiliaria Emanuel.";

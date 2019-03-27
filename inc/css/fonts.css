@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'dearponypersonaluseregular';
+    src: url('../../lib/fonts/dearponypersonaluse-webfont.woff2') format('woff2'),
+         url('../../lib/fonts/dearponypersonaluse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'dearponypersonalusebold';
+    src: url('../../lib/fonts/dearponypersonaluse-bold-webfont.woff2') format('woff2'),
+         url('dearponypersonaluse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'dearponypersonaluseheavy';
+    src: url('../../lib/fonts/dearponypersonaluse-heavy-webfont.woff2') format('woff2'),
+         url('../../lib/fonts/dearponypersonaluse-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dearponypersonalusemedium';
+    src: url('../../lib/fonts/dearponypersonaluse-medium-webfont.woff2') format('woff2'),
+         url('../../lib/fonts/dearponypersonaluse-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'endolittaregular';
+    src: url('../../lib/fonts/endolitta_demo-webfont.woff2') format('woff2'),
+         url('../../lib/fonts/endolitta_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'endolittaregular';
+    src: url('../../lib/fonts/endolitta_demo-webfont.woff2') format('woff2'),
+         url('../../lib/fonts/endolitta_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

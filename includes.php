@@ -11,7 +11,7 @@
 
 <!-- Includes de las funciones -->
 <link rel="stylesheet" type="text/css" href="fonts/style.css"> 
-  
+<link href="inc/css/fonts.css" rel="stylesheet" type="text/css"/>
       
 
 <!-- Includes de los estilos de Fontawsome -->
