@@ -498,7 +498,7 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     color: white;
 
 }
-#foterLogo{
+.foterLogo{
     margin: auto;
 }
 

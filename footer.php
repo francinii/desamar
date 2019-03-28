@@ -1,10 +1,13 @@
 <!-- INICIO DEL FOOTER  -->
-<footer class="section-footer">   
+<footer class="section-footer"> 
+    <h1>Grupo Empresarial</h1>
     <div class="middle-footer row">
-        <div class="col-12 col-sm-12 col-md-12 d-flex justify-content-start">
-            <img id="foterLogo" src="../desamar/img/logoBlanco.png" height="95px">   
-        </div>   
-        
+        <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-start">
+            <img class="foterLogo" src="../desamar/img/logoBlanco.png" height="95px">  
+        </div>  
+        <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-start">
+            <img class="foterLogo" src="../desamar/img/alatrans.png" height="95px">
+        </div> 
         <!--  En caso de que se coloquen redes sociales -->
         <!-- 
         <div class="col-12 col-sm-12 col-md-12  d-flex justify-content-end" >   

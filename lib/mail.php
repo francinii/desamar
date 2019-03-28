@@ -1,6 +1,6 @@
 <?php
 $valor = $_POST['formIndex'];
-$destinatario = "ajcg1995@hotmail.com";
+$destinatario = "servicioalcliente@desamarcr.com";
 $nombre = $_POST['nombre'];
 $mensaje = $_POST['mensaje'];
 $correo = $_POST['correo'];
@@ -11,16 +11,16 @@ $contenidoformulario .= "Telefono: ". $telefono."\n";
 $contenidoformulario .= "Correo: ". $correo."\n";
 $contenidoformulario .= "Mensaje: \n". $mensaje."\n";
 mail($destinatario,$nombre,$contenidoformulario);
-echo'<script type="text/javascript">alert("Mensaje Enviado") </script>';
 if ($valor == 1) {
-	header('Location: http://desamarcr.com/');
+	echo "<script>
+                alert('Mensaje Enviado');
+                window.location= 'http://desamarcr.com/#contactenos'
+    </script>";
 }
 else{
-
-	header('Location: http://desamarcr.com/');
+echo "<script>
+                alert('Mensaje Enviado');
+                window.location= 'http://desamarcr.com/#contactenos'
+    </script>";
 }
-
-
-
-
 ?> 

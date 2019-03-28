@@ -115,7 +115,7 @@
                                 <i class="fas fa-warehouse fa-4x colores"></i>                                
                             </div>                            
                             <h4> <?= $vocab["subtitulo_almacen_fiscal"] ?> </h4>
-                            <p> <?= $vocab["contenido_agencia_aduanal"] ?> </p>                           
+                            <p> <?= $vocab["contenido_almacen_fiscal"] ?> </p>                           
                         </div>              
                     </article>
 
@@ -196,7 +196,7 @@
 
                 <div class="alianzas row ">  
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 "> 
-                        <img src="../desamar/img/siati.png" height="70%">                        
+                        <img src="../desamar/img/siati.png" height="50%">                        
                     </div>
                     <div class="col-12 col-sm-12 col-md-3 col-lg-3  ">  
                         <p>  <?= $vocab["contenido_alianza_siati"] ?>  </p>

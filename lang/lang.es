@@ -56,16 +56,21 @@ $vocab["subtitulo_almacen_fiscal"]  = "ALMACÉN FISCAL";
 $vocab["subtitulo_agencia_aduanal"]  = "AGENCIA ADUANAL";
 $vocab["subtitulo_transporte"]  = "TRANSPORTE";
 $vocab["subtitulo_seguridad"]  = "SEGURIDAD";
-$vocab["contenido_almacen_fiscal"]  = "";
+$vocab["contenido_almacen_fiscal"]  = "Nos dedicamos a administrar y custodiar cualquier 
+                                        tipo de  mercancías provenientes del exterior,
+                                        además de realizar los trámites de nacionalización 
+                                        y/o reexportación; Reempaque y distribución entre otros.                                      
+                                        ";
 $vocab["contenido_agencia_aduanal"]  = "Nacionalización de mercancías
                                         Confección de trámites y permisos 
                                         Exoneraciones
                                         Asesoría en Tratados de libre comercio
-                                        Trámites de Importación y Exportación
-                                        Tramites de Zona franca
+                                        trámites de Importación y Exportación
+                                        trámites de Zona franca
                                         Asesorías en materia de clasificación arancelaria";
-$vocab["contenido_transporte"]  = "Ofrecemos a nuestros clientes Transporte de carga LCL / FC
-                                    Transporte aéreo, marítimo, terrestre desde Estados Unidos, Europa, Asia, Centroamérica y México.
+$vocab["contenido_transporte"]  = "Alatrans S.A forma parte del grupo empresarial Desamar <br>
+                                    Le ofrecemos a nuestros clientes Transporte de carga LCL / FC
+                                    Transporte aéreo, marítimo, terrestre desde Estados Unidos, Europa, Asia, Centroamérica,México y Sudamerica.
                                     Transporte de carga local con camiones propios.";
 
 
@@ -81,9 +86,14 @@ $vocab["contenido_aduanas"]  = "Aduana Santamaría <br> Aduana Limón <br> Aduan
 //***************************** Sección de nuestras alianzas*********************************//
 $vocab["titulo_alianzas"]  = " Nuestra Direccion en Miami ";
 
-$vocab["contenido_alianza_siati"]  = "Phone: (305) 885-2077
-6117 N.W. 72nd AVE.
-Miami, Florida 33195-3705
+$vocab["contenido_alianza_siati"]  = "International Freight Forwarder <br>
+6117 N.W. 72nd AVE. <br>
+Miami, Florida 33166 <br>
+Phone: (305)885-2077 ext 226-406
+Mobil/Whatsapp:+1 (768)440-9610
+Skype: sales.siatiexpress <br>
+Contact: Diego Paez <br>
+sales@siatiexpress.com <br>
 www.siatiexpress.com";
 
 
@@ -99,6 +109,4 @@ $vocab["info_ubicacion"]  = "Heredia, Lagunilla, De Amazon 100 metros oeste, 150
 
 $vocab["contacto_correo"] = "Correo";
 $vocab["info_correo"]  = "servicioalcliente@desamarcr.com";
-
-
 $vocab["titulo_formularioContacto"]  = "Formulario";
