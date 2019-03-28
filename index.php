@@ -35,26 +35,26 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active portada1">
                         <div class="carousel-caption d-none d-md-block mask pattern-8 pantalla-1-Carrusel">
-                            <h2 class="tituloCarrusel aniview animated bounceInDown">GRUPO DESAMAR</h2>
-                            <p class="textoCarrusel aniview animated bounceInUp">Su
-                                <span class="textoCarrusel textoAzul"> satisfacción </span>
-                              es nuestro impulso para      
-                                seguir adelante</p>                           
+                            <h2 class="tituloCarrusel aniview animated bounceInDown"><?= $vocab["carrusel_titulo"] ?></h2>
+                            <p class="textoCarrusel aniview animated bounceInUp"> <?= $vocab["sliderUno"] ?>
+                                <span class="textoCarrusel textoAzul"><?= $vocab["sliderUnoSatiscaccion"] ?> </span>
+                                <?=  $vocab["sliderUnoImpulso"]   ?>
+                              </p>                           
                         </div>
                     </div>
 
                     <div class="carousel-item portada2">
                         <div class="carousel-caption d-none d-md-block pantalla-2-Carrusel">
-                            <h2 class="textoCarrusel aniview animated bounceInLeft">Valioso
-                                <span class="textoCarrusel textoAzul"> Recurso Humano  </span>
-                                a su disposición
+                            <h2 class="textoCarrusel aniview animated bounceInLeft"><?= $vocab["sliderDos"] ?>
+                                <span class="textoCarrusel textoAzul"> <?= $vocab["sliderDosRecurso"] ?> </span>
+                                <?= $vocab["sliderDosDisposicion"] ?>
                             </h2>
                         </div>
                     </div>
                     <div class="carousel-item portada3">
                         <div class="carousel-caption d-none d-md-block pantalla-3-Carrusel">
-                           <h2 class="textoCarrusel aniview animated bounceInRight">Con más de 15 años de 
-                                <span class="textoCarrusel textoAzul"> experiencia </span>
+                           <h2 class="textoCarrusel aniview animated bounceInRight"> <?= $vocab["sliderTres"] ?>
+                                <span class="textoCarrusel textoAzul"> <?= $vocab["sliderTresexperiencia"] ?> </span>
                             
                             </h2>
                         </div>
@@ -79,19 +79,19 @@
             <div id ="valores"  class="section-container container-fluid">
                 <div class="nuestro-valor row">
                     <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
-                        <h1 id="comprimiso"> Compromiso </h1>
+                        <h1 id="comprimiso"> <?= $vocab["valorUno"] ?> </h1>
                     </div>    
                     
                     <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
-                         <h1 id="confianza"> Solidez </h1>
+                         <h1 id="confianza"> <?= $vocab["valorDos"] ?>  </h1>
                     </div> 
                     
                     <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
-                         <h1 id="liderazgo"> Confianza </h1>
+                         <h1 id="liderazgo"> <?= $vocab["valorTres"] ?>  </h1>
                     </div> 
                     
                     <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
-                         <h1 id="calidad"> Calidad </h1>
+                         <h1 id="calidad">  <?= $vocab["valorCuatro"] ?> </h1>
                     </div> 
                         
                 </div>

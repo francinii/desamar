@@ -7,6 +7,37 @@ $vocab["menu_acerca_de"]         = "Nuestra empresa";
 $vocab["menu_servicios"]         = "Servicios";
 $vocab["menu_alianzas"]         = "Alianzas";
 $vocab["menu_aduanas"]         = "Aduanas";
+
+
+//***************************** Seccion Carrusel *********************************//
+$vocab["carrusel_titulo"]         = "GRUPO DESAMAR";
+
+$vocab["sliderUno"]                = "Su";
+$vocab["sliderUnoSatiscaccion"]    = "satisfacción";
+$vocab["sliderUnoImpulso"]    =      "es nuestro impulso para      
+                                     seguir adelante";
+
+
+$vocab["sliderDos"]                = "Valioso";
+$vocab["sliderDosRecurso"]         = "Recurso Humano ";
+$vocab["sliderDosDisposicion"]     = "a su disposición";
+
+
+$vocab["sliderTres"]                = "Con más de 15 años de ";
+$vocab["sliderTresexperiencia"]     = "experiencia";
+
+
+
+//***************************** Seccion valores ***************************//
+$vocab["valorUno"]    =  "Compromiso";
+$vocab["valorDos"]    =  "Solidez";
+$vocab["valorTres"]    =  "Confianza";
+$vocab["valorCuatro"]    =  "Calidad";
+
+
+
+
+
 //***************************** Sección de portada *********************************//
 $vocab["titulo_principal"]      = "GRUPO DESAMAR";
 $vocab["lema"]                  = "Su satisfacción es nuestro impulso para seguir adelante";
