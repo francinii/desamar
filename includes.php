@@ -1,7 +1,3 @@
-<!-- Includes de los estilos y js de Bootstrap 
-<link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
-<script src="lib/bootstrap/js/bootstrap-filestyle.min.js" type="text/javascript"></script>
--->
 
 <script src="inc/js/jquery.js" type="text/javascript"></script> 
 <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -13,8 +9,7 @@
 <link rel="stylesheet" type="text/css" href="fonts/style.css"> 
 <link href="inc/css/fonts.css" rel="stylesheet" type="text/css"/>
 <link href="inc/css/animate.css" rel="stylesheet" type="text/css"/>
-      
-
+     
 <!-- Includes de los estilos de Fontawsome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -37,3 +32,16 @@
 
 <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
 <link rel="icon" href="img/fav.png" type="image/x-icon">	
+
+<meta name="descripcion" content="Grupo desamar,Aduana, Almacen fiscal"/>	
+<meta name="keywords" content="Aduanas Costa Rica,Aduanas, Comercio Exterior"/>
+<meta name="keywords" content="grupo desamar,aduanas, comercio internacional">
+<meta name="keywords" content="mercancia, nacionalizacion de mercancias, trasporte de carga"/>
+<meta name="keywords" content="mercancia,Mercancias, nacionalizacion de mercancias,Nacionalizacion de Mercancias, trasporte de carga"/>
+<meta name="keywords" content="Carga FCL, Carga FC"/>
+<meta name="keywords" content="Carga fcl, Carga fc"/>
+<meta name="keywords" content="exoneraciones, Exoneracion, Exoneraciones, exoneracion"/>
+<meta name="keywords" content="importaciones, Importaciones, Exoneraciones, exoneracion"/>
+<meta name="keywords" content="zonas francas, Zonas Francas"/>
+<meta name="keywords" content="Clasificacion arancelaria, clasificacion arancelaria"/>
+<meta name="keywords" content="tratados de libre comercio, Tratados de Libre Comercio"/>

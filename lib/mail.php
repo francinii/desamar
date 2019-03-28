@@ -1,5 +1,4 @@
 <?php
-
 $valor = $_POST['formIndex'];
 $destinatario = "ajcg1995@hotmail.com";
 $nombre = $_POST['nombre'];

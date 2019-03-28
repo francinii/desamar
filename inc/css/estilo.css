@@ -511,11 +511,9 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     margin-top: 1%;
 }
 
-.derechosReservadosP p{
-    font-size: 1.0rem;
+.derechosReservados{
+    font-size: 0.6rem;
 }
-
-
 
 /******************************************  FIN SECCION FOOTER  ********************************************************/
 

@@ -98,7 +98,7 @@ $vocab["contacto_ubicacion"] = "Ubicación";
 $vocab["info_ubicacion"]  = "Heredia, Lagunilla, De Amazon 100 metros oeste, 150 metros norte Inmobiliaria Emanuel.";
 
 $vocab["contacto_correo"] = "Correo";
-$vocab["info_correo"]  = "  PBX.:(506) 2262-2012 / 2262-2013 / 2248-4353";
+$vocab["info_correo"]  = "servicioalcliente@desamarcr.com";
 
 
 $vocab["titulo_formularioContacto"]  = "Formulario";
