@@ -23,7 +23,7 @@
         <section id ="inicio" class="section-container ">
 
 
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-interval="3000" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-interval="5000" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -33,18 +33,13 @@
 
 
                 <div class="carousel-inner">
-
-
-
-
                     <div class="carousel-item active portada1">
                         <div class="carousel-caption d-none d-md-block mask pattern-8 pantalla-1-Carrusel">
                             <h2 class="tituloCarrusel aniview animated bounceInDown">GRUPO DESAMAR</h2>
                             <p class="textoCarrusel aniview animated bounceInUp">Su
                                 <span class="textoCarrusel textoAzul"> satisfacción </span>
                               es nuestro impulso para      
-                                seguir adelante</p>
-                            
+                                seguir adelante</p>                           
                         </div>
                     </div>
 
@@ -278,3 +273,4 @@
     </body>
 
 </html>
+
