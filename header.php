@@ -26,8 +26,12 @@
 
 <div id="menuResponsive">
     <ul class="navResposive">
-        
-        <!-- <img id="imgNavBar" src="../desamar/img/logo.png" height="50px">-->
+        <li class="nav-item">
+            
+                <img src="img/logoNav.png" height="50px">
+            
+        </li>
+
         <li class="nav-item">
             <i class="fas fa-home"></i>
             <a class="itemMenuR" href="#inicio"> <?= $vocab["menu_inicio"] ?>   

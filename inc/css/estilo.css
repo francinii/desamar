@@ -672,7 +672,7 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
         margin: 0;
         position: fixed;
         left: -100%;
-        z-index: 1;
+        z-index: 15;
         background: #40403f;
 
     }
@@ -687,7 +687,7 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
     
     
     .navResposive{
-        margin-top: 22%;
+        margin-top: -3%;
         
     }
 
@@ -697,6 +697,10 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
         margin-left: -20%;
         margin-right: 3%;
         padding: 5%;
+    }
+    
+    .itemMenuR:hover {
+        color: #6c4675 !important;
     }
     
     navigation-menu{
