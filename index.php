@@ -15,9 +15,9 @@
     </head>
 
     <body>
-        
+
         <?php //include('headerResponsive.php'); ?>
-        
+
         <!--  INICIO DEL CARRUSEL-->
 
         <section id ="inicio" class="section-container ">
@@ -38,8 +38,8 @@
                             <h2 class="tituloCarrusel aniview animated bounceInDown"><?= $vocab["carrusel_titulo"] ?></h2>
                             <p class="textoCarrusel aniview animated bounceInUp"> <?= $vocab["sliderUno"] ?>
                                 <span class="textoCarrusel textoAzul"><?= $vocab["sliderUnoSatiscaccion"] ?> </span>
-                                <?=  $vocab["sliderUnoImpulso"]   ?>
-                              </p>                           
+                                <?= $vocab["sliderUnoImpulso"] ?>
+                            </p>                           
                         </div>
                     </div>
 
@@ -53,9 +53,9 @@
                     </div>
                     <div class="carousel-item portada3">
                         <div class="carousel-caption d-none d-md-block pantalla-3-Carrusel">
-                           <h2 class="textoCarrusel aniview animated bounceInRight"> <?= $vocab["sliderTres"] ?>
+                            <h2 class="textoCarrusel aniview animated bounceInRight"> <?= $vocab["sliderTres"] ?>
                                 <span class="textoCarrusel textoAzul"> <?= $vocab["sliderTresexperiencia"] ?> </span>
-                            
+
                             </h2>
                         </div>
                     </div>
@@ -75,25 +75,25 @@
                 <h2><?= $vocab["titulo_nuestra_empresa"] ?></h2>
                 <p> <?= $vocab["contenido_nuestra_empresa"] ?></p>
             </div>
-            
+
             <div id ="valores"  class="section-container container-fluid">
                 <div class="nuestro-valor row">
                     <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
                         <h1 id="comprimiso"> <?= $vocab["valorUno"] ?> </h1>
                     </div>    
-                    
+
                     <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
-                         <h1 id="confianza"> <?= $vocab["valorDos"] ?>  </h1>
+                        <h1 id="confianza"> <?= $vocab["valorDos"] ?>  </h1>
                     </div> 
-                    
+
                     <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
-                         <h1 id="liderazgo"> <?= $vocab["valorTres"] ?>  </h1>
+                        <h1 id="liderazgo"> <?= $vocab["valorTres"] ?>  </h1>
                     </div> 
-                    
+
                     <div class="contenedorValores col-lg-3 col-md-6 col-sm-12">
-                         <h1 id="calidad">  <?= $vocab["valorCuatro"] ?> </h1>
+                        <h1 id="calidad">  <?= $vocab["valorCuatro"] ?> </h1>
                     </div> 
-                        
+
                 </div>
             </div>
 
@@ -244,6 +244,15 @@
                     <article class="row">
                         <div class="col-11 col-sm-11 col-md-11 col-lg-11 d-flex justify-content-end">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d502354.17798478546!2d-83.95263494999999!3d10.37048155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scr!4v1550770062233" width="200" height="200" frameborder="0" style="border:0 ;    border-radius:250px; padding: 5" allowfullscreen></iframe>
+                        </div> 
+                    </article>
+
+                    <article class="row">
+                        <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-start">
+                            <img class="foterLogo" src="../desamar/img/logoBlanco.png" height="75px">  
+                        </div>  
+                        <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-start">
+                            <img class="foterLogo" src="../desamar/img/alatrans.png" height="85px">
                         </div> 
                     </article>
 

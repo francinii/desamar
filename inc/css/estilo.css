@@ -120,7 +120,7 @@ hr{
 
 
 /***************************************   SECCIONES GENERAL    *******************************************************
-*Esta sección.container crea una seccion con todo el ancho de la pantalla que se ajusta al contenido a lo alto. 
+*Esta secci贸n.container crea una seccion con todo el ancho de la pantalla que se ajusta al contenido a lo alto. 
 Si se desea que cada seccion cambie su apariencia en cuando a color, se puede sobreescribir 
 */
 .section-container {
@@ -267,6 +267,11 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 .contenedorValores {
     padding: 1% 2%;
     position: relative;
+  
+}
+
+.contenedorValores h1 {
+      font-size: 2rem;
 }
 
 .contenedorValores:hover{
@@ -480,24 +485,18 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 
 
 /******************************************  SECCION FOOTER  *******************************************************
- * Creación de un footer que se mantiene en la pantalla abajo
+ * Creaci贸n de un footer que se mantiene en la pantalla abajo
  * Se crea el footer utilizando la rejilla de Boostrap, esto con el fin de crear varias columnas
-    Una con la información, redes sociales y otra con un formulario para obtener información
+    Una con la informaci贸n, redes sociales y otra con un formulario para obtener informaci贸n
 */
 .section-footer{
     width: 100%;
     margin: 0 auto;
-    padding: 0;
     background: #2d2d2d; 
-    position:relative;
-}
-
-.middle-footer{
-    text-align: center;    
-    padding-top: 2%;
-    color: white;
 
 }
+
+
 .foterLogo{
     margin: auto;
 }
@@ -505,14 +504,12 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 #redesSocialesFooter{
     margin: auto;
 }
-#lineaFooter {
-    background: #334c6f;
-    height: 30px;
-    margin-top: 1%;
-}
+
 
 .derechosReservados{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    color: white;
+    padding: 1%;
 }
 
 /******************************************  FIN SECCION FOOTER  ********************************************************/
@@ -597,6 +594,10 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+      body { 
+        font-size: 1rem;
+        
+    }    
     
     .nav-item a {
         font-size: 0.9em;
@@ -647,7 +648,11 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 }
 
 /* Landscape phones and down */
-@media (max-width: 630px) {    
+@media (max-width: 630px) {  
+      body { 
+        font-size: 1rem;
+        
+    } 
     .linea {
        display: none;
         
@@ -718,7 +723,27 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
 }
 
 @media (max-width: 570px) { 
-  
+    body { 
+        font-size: 0.6rem;
+        
+    } 
+    .servicio p{
+    font-size: 1.5em;
+    padding: 10% 5% 2% 5%;
+}
+.alianzas p{
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.navigation-menu-show{
+    position: absolute;
+    top: 0; 
+    margin-top: -50px;
+}
+    .contenedorValores h1 {
+      font-size: 1.5rem;
+    }
      .col-12 img{  
         margin-right: 25%;
     }
@@ -737,4 +762,3 @@ Si se desea que cada seccion cambie su apariencia en cuando a color, se puede so
         margin-bottom: 58px;
     }
 }
-
